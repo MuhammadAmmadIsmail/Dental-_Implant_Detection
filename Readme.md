@@ -1,37 +1,84 @@
-The Dental Implant Detection GUI is an innovative computer vision project designed to detect different types of dental implants on radiograph images of teeth. Leveraging the power of YOLO_v7, this project has been trained on a carefully curated dataset of around 2000 radiograph images, enabling it to accurately identify and categorize three major types of dental implants: Endosteal, Subperiosteal, and Zygomatic.
+# 🦷 Dental Implant Detection GUI
 
-Key Features:
+The **Dental Implant Detection GUI** is a modern computer vision system designed to automatically detect and classify dental implants in radiograph images. Built using **YOLOv7** and trained on a curated dataset of ~2000 dental X-rays, the tool accurately identifies three major implant types: **Endosteal**, **Subperiosteal**, and **Zygomatic**.
 
-Robust Implant Detection: The YOLO_v7 model has been meticulously trained to detect Endosteal, Subperiosteal, and Zygomatic implants with exceptional precision, making it a reliable tool for dental professionals.
+---
 
-User-Friendly GUI: The graphical user interface (GUI) provides an intuitive and user-friendly platform for dental practitioners to upload and analyze radiograph images effortlessly.
+## 🔑 Key Features
 
-Real-Time Inference: The model's real-time capabilities enable swift detection and classification of implants, streamlining the dental diagnosis process and saving valuable time.
+### ✅ **Accurate Implant Detection**
 
-Interactive Results: Upon detection, the GUI highlights and labels the identified implants on the radiograph image, providing dentists with clear and actionable insights.
+A fine-tuned YOLOv7 model provides high-precision detection for:
 
-Enhanced Diagnostics: With the ability to identify different types of implants, the Dental Implant Detection GUI empowers dental specialists to make informed decisions for personalized patient care.
+* **Endosteal implants**
+* **Subperiosteal implants**
+* **Zygomatic implants**
 
-How to Use:
+### 🖥️ **User-Friendly GUI**
 
-Open the Dental Implant Detection GUI.
-Upload the radiograph image of teeth to be analyzed.
-Click on the "Detect" button to initiate the detection process.
-The GUI will display the detected implants, categorized as Endosteal, Subperiosteal, and Zygomatic, highlighted on the radiograph.
-Trained YOLOv7 Model Availability:
-Upon request, we are pleased to provide the trained YOLOv7 model for dental implant detection. This enables researchers and developers to integrate the model into their own applications or explore further improvements to the detection capabilities.
+A simple, intuitive **PyQt interface** allows users—especially dental professionals—to upload and analyze X-ray images easily.
 
-How to Contribute:
-We welcome contributions from the open-source community to enhance the accuracy and robustness of the Dental Implant Detection GUI. Whether you are a computer vision expert, dental professional, or enthusiastic developer, your insights and expertise can help improve this essential tool for dental diagnostics.
+### ⚡ **Real-Time Inference**
 
-Technologies Used:
+Fast detection and classification help streamline diagnosis and reduce analysis time.
 
-YOLO_v7: Object detection model for implant identification.
-Python: Backend code for model inference and GUI development.
-PyQt: Framework for creating the graphical user interface.
-NumPy, OpenCV: Libraries for image processing and manipulation.
-Acknowledgments:
-We extend our gratitude to the YOLOv7 community and the creators of PyQt for their invaluable contributions to this project. Special thanks to all the contributors who helped curate the dataset and improve the model's performance.
+### 🖼️ **Interactive Results**
 
-Contact:
-For questions, contributions, or model requests, please reach out to [hammadkhalidrko@gmail.com] to discuss this project further.
+Detected implants are highlighted and labeled directly on the radiograph image, providing clear visual insights.
+
+### 🩺 **Improved Dental Diagnostics**
+
+Supports dental specialists with better implant identification, aiding personalized treatment planning.
+
+---
+
+## 🧪 How to Use
+
+1. Open the **Dental Implant Detection GUI**.
+2. Upload a dental radiograph image.
+3. Click **Detect**.
+4. The GUI will display the implant types—Endosteal, Subperiosteal, and Zygomatic—highlighted on the image.
+
+---
+
+## 📦 Trained YOLOv7 Model Availability
+
+A trained YOLOv7 model for dental implant detection is available **upon request**, enabling researchers and developers to extend or integrate the system into their own applications.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions to improve accuracy, usability, and expand the tool’s capabilities—whether you're:
+
+* A computer vision engineer
+* A dental professional
+* A researcher
+* An enthusiastic developer
+
+Feel free to open issues or submit pull requests!
+
+---
+
+## 🧠 Technologies Used
+
+* **YOLOv7** — Implant detection
+* **Python** — Model inference and backend logic
+* **PyQt** — GUI development
+* **NumPy & OpenCV** — Image processing
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to the **YOLOv7 community**, PyQt developers, and all contributors who helped curate the implant dataset and improve model performance.
+
+---
+
+## 📬 Contact
+
+For questions, contributions, or access to the trained model, reach out at:
+**📧 [mammadismail.321@gmail.com](mailto:mammadismail.321@gmail.com)**
+
+
+
